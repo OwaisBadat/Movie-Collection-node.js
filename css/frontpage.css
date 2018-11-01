@@ -1,0 +1,29 @@
+body {
+  background: url(cinema.jpg) no-repeat center fixed;
+  background-position: 100%;
+  background-size: 50%;
+}
+
+#frontPage{
+  background-color: brown;
+  width: 50%;
+  height: -webkit-fill-available;
+  text-align: -webkit-center;
+
+}
+
+#frontPageText{
+  text-align: -webkit-center;
+  width: 100%;
+  position: relative;
+  padding-top: 10%;
+  color: white;
+}
+
+label{
+  font-size: 4rem;
+}
+
+p{
+  font-size: 1.5rem;
+}

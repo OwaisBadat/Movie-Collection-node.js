@@ -1,0 +1,20 @@
+body {
+  background: url(collection.jpg) no-repeat center fixed;
+  background-position: 0 0;
+  background-size: 100% 100%;
+}
+
+#collectionPage{
+  text-align: -webkit-center;
+}
+label{
+  font-size: 4rem;
+  color: white;
+}
+
+#cardStyle{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: center;
+}
