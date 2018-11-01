@@ -57,13 +57,14 @@ app.get('/my-movie-collection',(req,res) => {
   res.render('my-movie-collection',{ collectionList : movieCollection })
 })
 
-// app.get('/my-movie-collection/:genre', function(req, res){
-//    let genre = req.params.movieGenre
-//    console.log(genre)
-//    res.render("my-movie-collection", {collectionList: movieCollection.filter(function(movie){
-//        return movie.genre == genre
-//    }), filters: genre})
-// })
+app.get('/my-movie-collection/:movieGenre', function(req, res){
+   let movieGenre = req.params.movieGenre
+   console.log(movieGenre)
+
+   res.render("my-movie-collection", {collectionList: movieCollection.filter(function(movie){
+       return movie.movieGenre == movieGenre
+   }), filters: movieGenre})
+})
 
 
 
